@@ -1,0 +1,142 @@
+.first-section{ 
+    /*что б лучше было видно*/
+    border: 5px solid red;
+    padding: 0;
+  height:600px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+    /*bg+*/
+}
+header {
+    background-size: 100% 100%;
+ 
+}
+.entry {
+border: 5px solid white;
+padding: 20px;
+width: 429px;
+height: 290px;
+position: absolute;
+left: 218px;
+top: 187px; 
+   font-family: cursive; 
+}
+.entry h1 { 
+width: 427px;
+height: 58px;
+font-style:normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 70px;
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+color: #FFFFFF;
+/*контроль выше-ниже*/
+line-height: 1.5; 
+}
+.entry h2 {
+ width: 283px;
+height: 29px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+.entry h3 {
+   width: 260px;
+height: 29px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+    
+}
+
+.button1 {
+width: 277px;
+height: 74px;
+left: 206px;
+top: 460px;
+background: #944ED5;
+box-shadow: 0px 4px 35px #944ED5;
+border-radius: 100px;
+font-family:monospace;  
+font-style: normal;
+font-weight:600;
+font-size: 24px;
+line-height: 35px;
+text-shadow: 0px 4px 35px #944ED5;
+text-align:center;
+color: #E5E5E5
+}
+
+.menu2 {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  padding: 10px 20px;
+  border-bottom: 5px solid #5757a0;
+    margin-left:120px;
+}
+.menu2 li { 
+ display: inline-block;
+ text-indent: 3.9em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    color: black;
+  
+}
+.price {
+position: absolute;
+width: 270px;
+height: 75px;
+right: 218px;
+top: 615px;
+background: #9B51E0;
+   color:  #FFFCFC;
+}
+.price h1 {
+    position: absolute;
+    top: -10px;
+    left: 78px;
+font-style:monospace;
+font-weight: 600;
+font-size: 36px;/*расстояние между буквами*/
+letter-spacing: 0em;
+color: ;
+/*контроль выше-ниже*/
+line-height: 0; 
+}
+.price h2{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-style:normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 10px;/*расстояние между буквами*/
+letter-spacing: 0.09em;
+/*контроль выше-ниже*/
+line-height: 0; 
+}
+.preview {
+  border: 5px solid white;
+padding: 20px;
+width: 829px;
+position: absolute;
+left: 218px;
+top: 687px; 
+   font-family: cursive;    
+font-style: normal;
+font-weight:600;
+font-size: 36px;
+line-height: 35px;
+text-shadow: 0px 4px 35px #944ED5;
+text-align:center;
+}
+.photo {
+    
+}
