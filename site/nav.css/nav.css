@@ -1,0 +1,26 @@
+
+.nav { position: absolute;
+top: 843px;
+  text-decoration:none;
+font-family: PT Sans Caption;
+  color: white;
+  padding: 10px 239px;
+  border-bottom: 5px solid #5757a0;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+color: #FFFFFF;
+}
+.nav_link {
+    margin-right: 35px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+    color: black;
+    text-decoration: none;  
+    }
+.nav_link:hover {
+        text-decoration: none;
+        color: purple;
+}

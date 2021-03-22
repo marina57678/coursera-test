@@ -1,0 +1,76 @@
+.priceleft {
+position: absolute;
+height: 0px;
+left: 215px;
+top: 3006px;
+}
+.priceleft p {
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: flex-end;
+color: black;   
+}
+/*.priceleft p:hover {
+    color:  darkolivegreen;
+}*/
+.priceleft li {
+ list-style: none;
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 35px;
+align-items: flex-end;
+color: black; 
+    background: url(/img/circle.png) 2px 4px no-repeat ;
+    padding-left: 35px;/* Смещаем текст вправо*/  
+}
+/*.priceleft li:hover {
+    color:darkolivegreen;
+}*/
+.priceright {
+position: absolute;
+height: 0px;
+left: 1079px;
+top: 3006px;
+}
+.priceright p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: flex-end;
+color: black;  
+}
+.priceright p:hover {
+    color:  darkred;
+}
+.priceright li:hover {
+    color:  darkred;
+}
+.nav1{
+    list-style: none;
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 35px;
+align-items: flex-end;
+}
+.nav_link1 {
+    color: black; 
+       text-decoration: none;
+     background: url(/img/money.png) 2px 4px no-repeat;
+    padding-left: 35px;/* Смещаем текст вправо */ 
+}
+
+.nav_link1:hover {
+        text-decoration: none;
+        color: darkred;
+}

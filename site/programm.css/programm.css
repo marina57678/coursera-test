@@ -1,0 +1,140 @@
+.programm h1{
+position: absolute;
+left: 170px;
+top: 3396px;
+font-family: roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 29px;
+text-shadow: 0px 4px 35px #944ED5;
+letter-spacing: 0.046em;
+}
+.day1left { position: absolute;
+left: 200px;
+top: 3476px;
+font-family: roboto;
+font-style:normal;
+font-weight: 700;
+/*line-height: 70px;*/
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+ font-size: 30px;
+}
+.day1 {
+ position: absolute;
+left: 215px;
+top: 3530px;
+width: 713px;
+font-family: roboto;
+font-style: normal;
+font-weight:200;
+ font-size: 21px;
+letter-spacing: 0.09em;
+}
+.bold{
+    font-weight:600;
+ font-size: 20px;
+}
+.bold1{
+     font-weight:700;
+ font-size: 22px;
+}
+.day1photo{ 
+position: absolute;
+top: 3523px;
+height: 568px;
+width: 950px;
+left: 953px;
+}
+.day2photo{
+position: absolute;
+top: 4091px;
+height: 578px;
+width: 954px;
+left: 0px;
+}
+
+.day2right { position: absolute;
+left: 1080px;
+top: 4091px;
+font-family: roboto;
+font-style:normal;
+font-weight: 700;
+/*line-height: 70px;*/
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+ font-size: 30px;
+}
+.day2{
+width: 703px;
+position: absolute;
+left: 1090px;
+top: 4155px;
+font-family: roboto;
+font-style: normal;
+font-weight:200;
+font-size: 21px;  
+    letter-spacing: 0.09em;
+}
+.day3left{
+position: absolute;
+left: 180px;
+top: 4669px;
+font-family: roboto;
+font-style: normal;
+font-weight: 700;
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+ font-size: 30px;
+left: 200px;
+}
+.day3{
+position: absolute;
+left: 180px;
+top: 4739px;
+font-family: roboto;
+font-style: normal;
+font-weight: 200;
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+ font-size: 22px;
+left: 200px;
+width: 703px;
+}
+.day3photo{ 
+position: absolute;
+top: 4669px;
+height: 568px;
+width: 950px;
+left: 953px;
+}
+.day5right { position: absolute;
+left: 1080px;
+top: 5235px;
+font-family: roboto;
+font-style:normal;
+font-weight: 700;
+/*line-height: 70px;*/
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+ font-size: 30px;
+}
+.day5{
+    width: 703px;
+position: absolute;
+left: 1090px;
+top: 5315px;
+font-family: roboto;
+font-style: normal;
+font-weight:200;
+font-size: 21px;  
+    letter-spacing: 0.09em;
+}
+.day5photo{
+position: absolute;
+top: 5236px;
+height: 578px;
+width: 954px;
+left: 0px;
+}

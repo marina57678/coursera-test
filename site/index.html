@@ -4,10 +4,22 @@
     <head>
        <meta charset="UTF-8">
         <title> Нидерланды </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css/style.css" type="text/css"  >
+         <link rel="stylesheet" href="/nav.css/nav.css" type="text/css"  >
+         <link rel="stylesheet" href="/first-section.css/first-section.css" type="text/css"  >
+         <link rel="stylesheet" href="/second-section.css/second-section.css" type="text/css"  >
+          <link rel="stylesheet" href="/map.css/map.css" type="text/css"  >
+          <link rel="stylesheet" href="/pricelist.css/pricelist.css" type="text/css"  >
+          <link rel="stylesheet" href="/programm.css/programm.css" type="text/css"  >
     </head>
     <body>
-    <section class="first-section" style="background-image: url(img/Frankfurt_Germany_Skyscrapers_Bridges_Night_559336_3840x2160.jpg);"> 
+    <section class="first-section" > 
 <div class="entry">
 <div class="text">
 <h1>Нидерланды</h1>
@@ -15,49 +27,137 @@
 <h3>22 места в группе</h3>
 </div>
 <div>
-    <button type="sumbit" class="button1">Купить программу</button>
+    <a href="" type="sumbit" class="button1"> Купить программу </a>
 </div>
   </div>
+  <button class="price"><h1>€ 1000</h1><h2>+ международный перелет
+</h2></button>
    </section>
    <section class="second-section"> 
-   <div class="menu2">
-<!--Тег <ul> устанавливает маркированный список. Каждый элемент списка должен начинаться с тега <li>-->
-<ul>
-  <li><a href="#">">Впечатления</a></li>
-  <li><a href="#">">Что включено</a></li>
-  <li><a href="#">">Программа</a></li>
-  <li><a href="#">">Карта маршрута</a></li>
-<li><button class="price"><h1>€ 1000</h1><h2>+ международный перелет
-</h2></button></li>
-</ul>
-   </div>
-   <div class="preview">Путешествие, наполненное впечатлениями</div>
+<!--Тег <ul> устанавливает маркированный список. Каждый элемент списка должен начинаться с тега <li>
+ Тег <nav> задает навигацию по сайту. -->
+      <nav class="nav">
+     <a class ="nav_link" href="#">Впечатления</a>
+     <a class ="nav_link" href="#pricelist">Что включено</a>
+      <a class ="nav_link" href="#programm">Программа</a>
+     <a class ="nav_link" href="#map">Карта маршрута</a>
+       </nav>
+   <div class="preview1">Путешествие, наполненное незабываемыми впечатлениями</div>
    <div class="photo">
-      <ul class="line1">
-       <img src="img/img1.png" alt="улица">
- <img src="img/img2.png" alt="улица">
- <img src="img/img3.png" alt="улица">
- </ul>
-<ul class="line2">
- <img src="img/img4.png" alt="улица">
+      <div class="line1">
+       <img  class="img1" src="img/img1.jpg" alt="Kreuzberg">
+ <img class="img2" src="img/img2.jpg" alt="улица">
+ <img  class="img3" src="img/img3.jpg" alt="Фридрихсхайн">
+ </div>
+<div class="line2">
+ <img class="img4" src="img/img4.jpg" alt="двор">
  
- <img src="img/img5.png" alt="улица"> 
- </ul>
- <ul class="line3">
- <img src="img/img6.png" alt="улица">
- <img src="img/img7.png" alt="улица">
- </ul>
- <img src="img/img8.png" alt="улица">
-<img src="img/img9.png" alt="улица">
-<img src="img/img10.png" alt="улица">
-<img src="img/img11.png" alt="улица">
-<img src="img/img12.png" alt="улица">
-<img src="img/img13.png" alt="улица">
-<img src="img/img14.png" alt="улица">
+ <img class="img5" src="img/img5.jpg" alt="bridge"> 
+</div>
+ <div class="line3">
+ <img class="img6"src="img/img6.jpg" alt="Germany_gory">
+ <img class="img7"src="img/img7.jpg" alt="кубические дома">
+ </div>
+ <img class="img8"src="img/img8.jpg" alt="Coffeshop">
+<img class="img9" src="img/img9.png" alt="red light">
+<img class="img10" src="img/img10.png" alt="улица">
+<div class="boximg11">
+<img class="img11" src="img/img11.jpg" alt="red light">
+<div class="container11">
+    <div class="text11">
+        <h1>Red lights</h1>
+<p> time to ...</p>
+    </div>
+</div>
+</div>
+<img class="img12" src="img/img12.jpg" alt="улица">
+<img class="img13" src="img/img13.jpg" alt="улица">
+<img class="img14"src="img/img14.jpg" alt="улица">
+<img class="img15"src="img/img15.jpg" alt="улица">
+<img class="img16"src="img/img16.jpg" alt="улица">
    </div>
    </section>
+   <section class="map">
+      <div id="map" class="preview2">Карта маршрута</div>
+       <iframe  class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33738.17391207695!2d4.828663013095138!3d52.36646419237927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2z0JDQvNGB0YLQtdGA0LTQsNC8LCDQndC40LTQtdGA0LvQsNC90LTRiw!5e0!3m2!1sru!2sua!4v1616423137774!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </section>
+<section class="pricelist">
+    <div class="priceleft">
+    <p id="pricelist">Входит в стоимость</p>
+    <ul >
+        <li >Проживание 1 человека в одноместном номере в отеле ( )</li>
+        <li>Завтраки в отеле</li>
+        <li>Обед в отеле (доступно также для вегетарианцев)</li>
+        <li>Прогулка на корабле по каналам Амстердама с дегустацией вина и сыра</li>
+        <li>Передвижение на комфортабельном автобусе с кондиционером</li>
+        <li>Входные билеты для осмотра достопримечательностей</li>
+        <li>Прогулки с гидом на протяжении всей вашей поездки</li>
+    </ul> 
+    </div>
+    <div class="priceright">
+     <p>Дополнительно</p>
+ <div class="nav1">
+      <a target="_blank" class ="nav_link1" href="https://e-bilet.com.ua/ru/AirTickets/History?hid=d2374bfb-b370-42ff-bd26-7a3db2c2cd29">Международный перелет</a><br>
+    <a target="_blank" class ="nav_link1" href="#">Личные расходы на питание, кроме предусмотренных программой завтраков, обедов — €30 в день</a><br>   
+    <a target="_blank" class ="nav_link1" href="https://hotline.finance/insurance-travel/offers?travel_period_days_number=15&country_code=FR_NL&is_work=0&sport_class_id=&sum_insured=30000&sum_insured_currency=EUR&is_single_trip=true&type=single&travel_period_from=2021-05-01&travel_period_till=2021-05-10&valid_from=2021-03-23&babyAge=0&childrenAge=0&teenagerAge=0&adultsAge=1&adultsMoreAge=0&options=%3B&futureOptions=%3B&companies=%3B&international_company=false&insuranceClass=ALL">Страхование (для активного отдыха) — €20</a><br>
+    <a target="_blank" class ="nav_link1" href="http://www.tripbest.ru/world/europe/netherlands/amsterdam/prices_ams.php">Личные растраты на свободные дни</a>
+     </div>
+     </div>
+</section>
+  
+   <section class="programm">
+      <h1 id="programm">Программа путешествия</h1>
+      
+       <p class="day1left">1 день</p>
+       <div class="day1"> 
+     <p class="bold1">Прилет в в Нидерланды (Амстердам)</p>
+          <p class="bold" >Музей Рейксмузеум</p>
+           <p>Мы предлагаем вам сравнить исскуство в этом городе. Первый день посвятим 
+Государственному музею,который сочетает черты готического стиля и Возрождения.
+Основную ценность музея составляет коллекция картин художников с мировой известностью.(Здесь можно увидеть работы Рембрандта, Ван Гога, Вермеера, Халса, Рейсдала, де Хоха, Стена, ван Скорела, ван дер Гельста, Рубенса, Эль Греко.)</p>
+      <p class="bold">Парк Вондела</p>
+      <p>Vondelpark - расположен в 10 минутах езды на велосипеде от  государственного музея Rijksmuseum. Это самый большой парк в городе.</p>
+      <p class="bold">Манкид</p>
+      <p>После такого насыщенного дня будет очень уместно расслабиться в одном из местных баров.</p>
+       </div> 
+       <img class="day1photo" src="/img/img1.1.jpg" alt=" Амстердамский Государственный музей">
+        <p class="day2right">2 день</p>
+       <div class="day2">
+           <p class="bold" >Королевский дворец </p>
+           <p>Поможет погрузиться в атмосферу дворцового шика и роскоши.</p>
+             <p class="bold" >Национальный монумент </p>
+             <p>Сегодня этот памятник считается святыней для голландского народа. Являясь центовым местом стела также служит местом встречи горожан</p>
+             <p class="bold" >Бегинаж </p>
+             <p>Один из старейших закрытых дворов Амстердама. В настоящее время здесь также находится англиканская церковь.</p>
+             <p class="bold" >The Happy Pig Pancake Shop Amsterdam</p>
+             <p>Идеальное место для пополнения энергии. ( тут можно выпить вкусный кофе, а такжке плотно поужинать).</p>
+       </div>
+       <img class="day2photo" src="/img/img1.2.jpg" alt="Королевский_дворец_в_Амстердаме">
+        <p class="day3left">3-4 день</p>
+        <div class="day3">
+            <p class="bold1">Самое время увидеть Амстердам с другой стороны </p>
+            <p class="bold">Stedelij</p>
+            <p>Идеалньно место для любителей чего-то нового и необычного!</p>
+         <p class="bold">De Dampking</p>
+            <p>Очень популярный кофешоп в Амстердаме.</p>
+             <p class="bold">Квартал Красных Фонарей.</p>
+             <p>Вы увидите визитную карточку этого места — знаменитые «живые» витрины. Узнаете, сколько зарабатывают жрицы любви, и по каким правилам работают. Мы пройдем мимо  театра «Casa Rosso», в котором проходят шокирующие порно-шоу.</p> 
+        </div>
+        <img class="day3photo" src="/img/img1.3.jpg" alt="Stedelijk">
+        <p class="day5right">5 день</p>
+       <div class="day5">
+           <p class="bold" >Свободный день </p>
+           <p>Мы рекумендуем вам прокатиться на кораблике по каналам.</p>
+             <p class="bold" >Hortus Botanicus</p>
+             <p>Посетить красивый сад.</p>
+             <p class="bold" >Тюльпанов поля </p>
+             <p>Больше всего полей находится между Харлемом и Лейденом. Вы можете отправиться гулять по полям как на велосипеде, который можете взять в аренду, так и пройтись пешком.</p>
+             <p class="bold" >Cannabis College</p>
+             <p>Он занимается просветительской деятельностью, распространяет знания о конопле.</p>
+       </div>
+       <img class="day5photo" src="/img/img1.4.jpg" alt="тюлп поля">
+   </section>
    <div>
-       эксперемент 
 <!--br*50-->
 <br>
 <br>

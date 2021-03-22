@@ -1,0 +1,171 @@
+
+.first-section{ 
+    /*что б лучше было видно*/
+ 
+    padding: 0;
+  height:600px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+    /*bg+*/
+background-image: url(/img/Frankfurt_Germany_Skyscrapers_Bridges_Night_559336_3840x2160.jpg); 
+position: absolute;
+width: 1893px;
+height: 710px;
+left: 0px;
+top: 105px;
+}
+.entry {
+border: 5px solid white;
+/*отступ от рамки*/
+padding: 20px;
+/*ширина рамки*/
+width: 429px;
+/*высота рамки*/
+height: 290px;
+/*относительно всей площади*/
+position: absolute;
+left: 218px;
+top: 187px; 
+
+/*    шрифт */
+   font-family: "Roboto";
+    font-style: normal;
+}
+.entry h1 { 
+width: 427px;
+height: 58px;
+font-style:normal;
+font-weight: 900;
+font-size: 60px;
+/*line-height: 70px;*/
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+color: #FFFFFF;
+/*контроль выше-ниже*/
+line-height: 1.5; 
+}
+.entry h2 {
+ width: 283px;
+height: 29px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+}
+.entry h3 {
+   width: 260px;
+height: 29px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF; 
+}
+
+.button1 { position: relative;
+ display: block;
+width: 277px;
+height: 74px;
+background: #944ED5;
+box-shadow: 0px 4px 35px #944ED5;
+border-radius: 1100px;
+font-family: "Roboto";  
+font-style: normal;
+font-weight:500;
+font-size: 24px;
+line-height: 35px;
+text-shadow: 0px 4px 35px #944ED5;
+/*по горизонт*/
+text-align:center;
+text-decoration:none;
+/*по вертикал*/
+    line-height: 70px;
+color: #E5E5E5;
+     transition: .4s;
+    cursor: pointer;
+overflow: hidden;
+}
+/* 
+.button1::before {
+	content:'';
+     position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+	height: 100%;
+    background: #944ED5;
+    box-shadow: 0px 4px 35px #944ED5;
+    border-radius: 1100px;
+/*прозрачность 
+    opacity: .5;
+	transition: .3s;
+}
+*/
+
+.button1::before {
+    content: '';
+      content: "";
+    display: block;
+    width: 30px;
+    height: 300px;
+    margin-left: 24px;
+    background: white;
+    position: absolute;
+    left: -40px;
+    top: -150px;
+    z-index: 1;
+    transform: rotate(45deg);
+    transition: all 0.1s;
+    animation-name: slideme;
+    animation-duration: 3s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+/*прозрачность*/
+    opacity: .3;
+}
+.button1:hover::before {
+    left:310px;
+    transition: .5s  ease-in-out;
+}
+ 
+.button1:hover{
+   box-shadow: 0 0 5em .5em rgba(50,50,150,0.5);
+    color: black;
+}
+
+.price {
+    
+position: absolute;
+width: 270px;
+height: 75px;
+left: 1623px;
+top: 710px;
+background: #9B51E0;
+   color:  #FFFCFC;
+}
+.price h1 {
+    position: absolute;
+    top: -10px;
+    left: 78px;
+    font-weight: 700;
+font-size: 36px;/*расстояние между буквами*/
+letter-spacing: 0em;
+/*контроль выше-ниже*/
+line-height: 0; 
+}
+.price h2{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-style:normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 10px;
+/*расстояние между буквами*/
+letter-spacing: 0.09em;
+/*контроль выше-ниже*/
+line-height: 0; 
+}

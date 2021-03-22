@@ -1,0 +1,26 @@
+
+.preview2 {
+position: absolute;
+width: 524px;
+height: 49px;
+left: 215px;
+top: 2300.25px;
+font-family:cursive;
+font-weight:500;
+font-size: 38px;
+line-height: 49px;
+text-shadow: 0px 4px 35px #944ED5;
+    letter-spacing: 0.046em;
+text-align:left;
+border: 5px solid black;
+}
+.googlemap {
+    position: absolute;
+width: 1908.33px;
+height: 620.33px;
+left: -1px;
+top: 2400.67px;
+}
+.priceleft {
+    
+}

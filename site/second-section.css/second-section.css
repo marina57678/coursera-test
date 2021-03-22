@@ -1,0 +1,164 @@
+.preview1 {
+position: absolute;
+width: 1273px;
+height: 43px;
+left: 215px;
+top: 892px;
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 29px;
+text-shadow: 0px 4px 35px #944ED5;
+    letter-spacing: 0.046em;
+text-align:left;
+border: 5px solid black;
+padding: 18px;
+}
+.img1 {/* Kreuzberg 1 */
+position: absolute;
+width: 501px;
+height: 335px;
+left: 0px;
+top: 948px;
+}
+.img2 {
+position: absolute;
+width: 411px;
+height: 335px;
+left: 501px;
+top: 948px;
+}
+.img3 {
+position: absolute;
+width: 469.91px;
+height: 335px;
+left: 912px;
+top: 948px;
+}
+.img4 {
+position: absolute;
+width: 517px;
+height: 335px;
+left: 1381px;
+top: 948px;
+}
+.img5{
+position: absolute;
+width: 782.54px;
+height: 335px;
+left: 0px;
+top: 1283px;
+}
+.img6 { 
+   position: absolute;
+width: 694.02px;
+height: 335px;
+left: 783px;
+top: 1283px;
+}
+.img7 {
+ position: absolute;
+width: 421px;
+height: 335px;
+left: 1477px;
+top: 1283px;
+}
+.img8 {
+    position: absolute;
+width: 462.68px;
+height: 335px;
+left: -1px;
+top: 1618px;
+}
+.img9 {
+position: absolute;
+width: 521.09px;
+height: 337px;
+left: 462px;
+top: 1618px;
+}
+.img10 {position: absolute;
+width: 489.91px;
+height: 337px;
+left: 977px;
+top: 1619px; 
+}
+.boximg11 {
+position: absolute;
+width: 495.5px;
+height: 335px;
+left: 1395px;
+top: 1618px;
+font-family: cursive;
+    border: 5px solid red;
+/*что бы скрыть все то что выходит за рамки*/
+overflow: hidden; 
+}
+.container11 { border: 10px solid yellow;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+.text11 {
+    position:absolute;
+    margin-left: 250px;
+    margin-top: 210px;
+    color:white;
+    font-style:normal;
+font-weight: 900;
+font-size: 20px;
+/*расстояние между строками*/
+line-height: 10px;
+/*расстояние между буквами*/
+letter-spacing: 0.02em;
+      z-index: 1;
+    transform: scale(2);
+    transition: .5s;
+}
+.img11 {
+position: absolute;
+width: 502.5px;
+height: 335px;
+left: 1395px;
+top: 1618px;
+}
+.boximg11:hover {
+    transition: scale(2);
+filter: blur(2px);
+}
+
+.img12 {
+position: absolute;
+width: 502.5px;
+height: 335px;
+left: 1395px;
+top: 1618px;
+}
+.img13{position: absolute;
+width: 589.92px;
+height: 335px;
+left: 0px;
+top: 1950px; 
+}
+.img14{
+position: absolute;
+width: 439.13px;
+height: 335px;
+left: 454px;
+top: 1950px;
+}
+.img15{
+position: absolute;
+width: 508.19px;
+height: 335px;
+left: 891px;
+top: 1950px;
+}
+.img16{
+position: absolute;
+width: 498.5px;
+height: 335px;
+left: 1399px;
+top: 1950px;
+}
